@@ -1,4 +1,9 @@
-
+.header{
+   background-color: #FFF8F3;
+   background-image: url('../image/developer.png'), url('../image/header_bg.png');
+   background-repeat: no-repeat;
+   background-position: top left, bottom right;
+}
 
 .open-sans{
   font-family: "Open Sans", serif;
@@ -48,6 +53,7 @@ nav li{
 nav ul{
    display: flex;
    align-items: center;
+   
 }
 
 nav a{
@@ -55,5 +61,78 @@ nav a{
 }
 .banner{
    display: flex;
-   
+   justify-content: space-between; 
+   margin:0 20px 0 150px;
 }
+.banner-contant{
+   width: 585px;
+   height: 356px;
+}
+.title-hi{
+   font-size: 45px;
+   color: #474747;
+   font-weight:600;
+}
+.hername{
+   color: #181818; ;
+   font-weight: bold;
+   font-size: 85px;
+
+}
+.banner-description{
+   font-size: 18px;
+   color: #757575;
+}
+.banner-profile{
+   width: 584px;
+   height: 676px;
+}
+.newsletter-container {
+   text-align: center;
+   background-color: #ffffff;
+   padding: 30px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   width: 90%;
+   max-width: 500px;
+ }
+ 
+ h1 {
+   font-size: 24px;
+   color: #333333;
+   margin-bottom: 15px;
+ }
+ 
+ p {
+   font-size: 16px;
+   color: #666666;
+   margin-bottom: 20px;
+ }
+ 
+ .newsletter-form {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+ }
+ 
+ input[type="email"] {
+   padding: 10px;
+   font-size: 16px;
+   border: 1px solid #cccccc;
+   border-radius: 4px;
+   flex: 1;
+ }
+ 
+ button {
+   padding: 10px 20px;
+   font-size: 16px;
+   color: #ffffff;
+   background-color: #28a745;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ button:hover {
+   background-color: #218838;
+ } 
